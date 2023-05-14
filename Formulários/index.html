@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro</title>
+  </head>
+  <body>
+    <form
+      action="https://meusite.com.br/"
+      name="signup"
+      autocomplete="off"
+      target="_blank"
+      method="post"
+      onsubmit="alert('Enviei o Formulário')"
+    >
+      <label>Text: </label><input type="text" name="name" /><br />
+      <label>Number: </label><input type="number" name="age" min="0" max="100" step="5" /><br />
+      <label>Senha:</label><input type="password" name="password" /><br />
+      
+
+      <label>Range: </label> <input type="range" min="0" max="100" /><br />
+      <label>Color: </label> <input type="color" /><br />
+
+      <label>E-mail: </label> <input type="email" /><br />
+      <label for="">Url:</label><input type="url"><br>
+      
+      <label>Button:</label><input type="button" value="Enviar" />
+      <button type="button">Enviar</button><br />
+    </form>
+  </body>
+</html>
